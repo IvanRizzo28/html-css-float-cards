@@ -1,0 +1,78 @@
+/*------reset--------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------classi di default---------*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body{
+    padding: 20px;
+}
+
+/*------------------------Main-------------------*/
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.intestazione{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.intestazione h1{
+    margin-bottom: 40px;
+    color: crimson;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.box{
+    float: left;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    border: none;
+    background-color: rgb(1, 1, 45);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*box-shadow*/
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 12px 8px 5px rgba(0,0,0,0.14); 
+    box-shadow: 0px 10px 13px -7px #000000, 6px 12px 8px 5px rgba(0,0,0,0.14);
+    /*----------*/
+}
+
+.foto-profilo{
+    width: 35%;
+    float: left;
+    padding-right: 10px;
+}
+
+.box h1, .box p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.box h1{
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.box a{
+    text-decoration: none;
+    color: aqua;
+}
+
+/*------------------------Fine Main-------------------*/
